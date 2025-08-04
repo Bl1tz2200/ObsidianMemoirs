@@ -1,2 +1,2 @@
 # Obsidian
-Saved notes from Obsidian
+Тут хранятся все записи из Obsidian

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lateral Movement"
+              "title": "README"
             }
           }
         ]
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lateral Movement"
+              "title": "Outline of README"
             }
           },
           {
@@ -179,17 +179,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f4b5f22a72e7dd6",
+  "active": "f19b1970c2e2802d",
   "lastOpenFiles": [
+    "Кибербезопасность/Lateral Movement.md",
+    "Кибербезопасность/README.md",
+    "README.md",
+    "Кибербезопасность",
+    "2025-08-04.md",
     "Obsidian/README.md",
     "Obsidian",
     "Obsidian/README.md",
-    "2025-08-04.md",
-    "Кибербезопасность/Lateral Movement.md",
-    "Кибербезопасность",
     "Untitled.canvas",
     "Кибербезопасность.md",
-    "Кибербезопасность",
     "Welcome.md",
     "create a link.md"
   ]
