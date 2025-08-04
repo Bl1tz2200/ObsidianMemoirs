@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lateral Movement"
+              "title": "README"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lateral Movement"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lateral Movement"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lateral Movement"
+              "title": "Outline of README"
             }
           },
           {
@@ -182,9 +182,9 @@
   },
   "active": "187978c0b96216fc",
   "lastOpenFiles": [
+    "Кибербезопасность/Lateral Movement.md",
     "Кибербезопасность/README.md",
     "README.md",
-    "Кибербезопасность/Lateral Movement.md",
     "2025-08-04.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
