@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "669433d0ad678fb6",
+        "id": "2142e1fe494a42f0",
         "type": "tabs",
         "children": [
           {
-            "id": "187978c0b96216fc",
+            "id": "29ced2e01c6437e7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -176,11 +172,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "187978c0b96216fc",
+  "active": "29ced2e01c6437e7",
   "lastOpenFiles": [
+    "README.md",
     "Кибербезопасность/README.md",
     "Кибербезопасность/Lateral Movement.md",
-    "README.md",
     "2025-08-04.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
