@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "64d962be71f88093",
+        "id": "669433d0ad678fb6",
         "type": "tabs",
         "children": [
           {
-            "id": "f19b1970c2e2802d",
+            "id": "187978c0b96216fc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
+                "file": "Кибербезопасность/Lateral Movement.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "icon": "lucide-file",
+              "title": "Lateral Movement"
             }
           }
         ]
@@ -94,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Lateral Movement"
             }
           },
           {
@@ -112,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Lateral Movement"
             }
           },
           {
@@ -140,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lateral Movement"
             }
           },
           {
@@ -176,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f19b1970c2e2802d",
+  "active": "187978c0b96216fc",
   "lastOpenFiles": [
     "Кибербезопасность/README.md",
     "README.md",
