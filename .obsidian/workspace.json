@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кибербезопасность/Кибербезопасность.md",
+                "file": "Математика/Математика.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Кибербезопасность"
+              "title": "Математика"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кибербезопасность/Кибербезопасность.md",
+                "file": "Математика/Математика.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Кибербезопасность"
+              "title": "Backlinks for Математика"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кибербезопасность/Кибербезопасность.md",
+                "file": "Математика/Математика.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Кибербезопасность"
+              "title": "Outgoing links from Математика"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кибербезопасность/Кибербезопасность.md",
+                "file": "Математика/Математика.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Кибербезопасность"
+              "title": "Outline of Математика"
             }
           },
           {
@@ -193,12 +193,15 @@
   },
   "active": "b811b5dd1ce40ad2",
   "lastOpenFiles": [
+    "Математика/Линейная алгебра/Книги/Кастрикин/Основы алгебры.md",
+    "Математика/Математика.md",
+    "Математика/Линейная алгебра/Книги/Винберг/Курс Алгебры.md",
+    "Математика/Линейная алгебра/Книги/Винберг/ВинбергКурсАлгебры.pdf",
+    "Математика/Линейная алгебра/Книги/Винберг",
+    "README.md",
+    "Кибербезопасность/Кибербезопасность.md",
     "Кибербезопасность/Lateral Movement.md",
     "Кибербезопасность/Утилиты/PsExec.md",
-    "Математика/Математика.md",
-    "README.md",
-    "Математика/Линейная алгебра/Книги/Кастрикин/Основы алгебры.md",
-    "Кибербезопасность/Кибербезопасность.md",
     "Untitled.canvas",
     "2025-08-04.md",
     "Математика/Линейная алгебра/Книги/Кастрикин/Введение в алгебру [Часть 1] Основы алгебры [2000] Кострикин.pdf",
@@ -213,10 +216,8 @@
     "Математика/Линейная алгебра/Книги/Кастрикин",
     "Математика/Линейная алгебра/Книги",
     "Математика/Линейная алгебра",
-    "Математика",
     "Untitled 1.canvas",
     "Кибербезопасность/Untitled.canvas",
-    "Кибербезопасность",
     "Obsidian/README.md",
     "Obsidian/README.md",
     "Welcome.md",
