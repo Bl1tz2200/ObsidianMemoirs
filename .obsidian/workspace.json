@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Математика/Математика.md",
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Математика"
+              "title": "Lateral Movement"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Математика/Математика.md",
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Математика"
+              "title": "Backlinks for Lateral Movement"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Математика/Математика.md",
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Математика"
+              "title": "Outgoing links from Lateral Movement"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Математика/Математика.md",
+                "file": "Кибербезопасность/Lateral Movement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Математика"
+              "title": "Outline of Lateral Movement"
             }
           },
           {
@@ -193,18 +193,18 @@
   },
   "active": "b811b5dd1ce40ad2",
   "lastOpenFiles": [
-    "Математика/Линейная алгебра/Книги/Кастрикин/Основы алгебры.md",
     "Математика/Математика.md",
+    "Математика/Линейная алгебра/Книги/Кастрикин/Основы алгебры.md",
+    "Математика/Линейная алгебра/Книги/Кастрикин/Введение в алгебру [Часть 1] Основы алгебры [2000] Кострикин.pdf",
+    "Кибербезопасность/Lateral Movement.md",
     "Математика/Линейная алгебра/Книги/Винберг/Курс Алгебры.md",
     "Математика/Линейная алгебра/Книги/Винберг/ВинбергКурсАлгебры.pdf",
     "Математика/Линейная алгебра/Книги/Винберг",
     "README.md",
     "Кибербезопасность/Кибербезопасность.md",
-    "Кибербезопасность/Lateral Movement.md",
     "Кибербезопасность/Утилиты/PsExec.md",
     "Untitled.canvas",
     "2025-08-04.md",
-    "Математика/Линейная алгебра/Книги/Кастрикин/Введение в алгебру [Часть 1] Основы алгебры [2000] Кострикин.pdf",
     "Введение.md",
     "Математика/Линейная алгебра/Книги/Кастрикин/Введение в алгебру [Часть 3] Основные структуры [2004] Кострикин.pdf",
     "Математика/Линейная алгебра/Книги/Кастрикин/Введение в алгебру [Часть 2] Линейная алгебра [2000] Кострикин.pdf",
