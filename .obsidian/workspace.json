@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dda1615427d12e3a",
+        "id": "a76397e75a4ac242",
         "type": "tabs",
         "children": [
           {
-            "id": "8cdf7d84b254c6f0",
+            "id": "5f712107f47da530",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Математика/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Математика/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -108,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Математика/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -136,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Математика/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
@@ -152,6 +160,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "ed43c022ff6cf698",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -169,15 +187,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8cdf7d84b254c6f0",
+  "active": "27cdb13cce2bacc4",
   "lastOpenFiles": [
-    "Кибербезопасность.md",
-    "Кибербезопасность/PsExec.md",
     "Кибербезопасность/Lateral Movement.md",
+    "Математика/README.md",
     "Кибербезопасность/README.md",
+    "Кибербезопасность/Утилиты/PsExec.md",
+    "Кибербезопасность/Утилиты",
+    "Кибербезопасность.md",
+    "Математика/Линейная алгебра/Книги/Кастрикин/Кастрикин - Основы алгебры.md",
+    "Математика/Линейная алгебра/Книги/Кастрикин",
+    "Математика/Линейная алгебра/Книги",
+    "Математика/Линейная алгебра",
+    "Математика",
     "2025-08-04.md",
     "README.md",
     "Untitled 1.canvas",
