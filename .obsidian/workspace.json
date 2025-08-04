@@ -13,13 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
+                "file": "Кибербезопасность/PsExec.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lateral Movement"
+              "title": "PsExec"
+            }
+          }
+        ]
+      },
+      {
+        "id": "146d57b22bf24aa6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1298c5a4e07f504",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://habr.com/ru/companies/rvision/articles/728838/",
+                "title": "Детектируем горизонтальное перемещение с PsExec / Хабр",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Детектируем горизонтальное перемещение с PsExec / Хабр"
             }
           }
         ]
@@ -54,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#работы",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +95,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -95,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lateral Movement"
+              "title": "Backlinks"
             }
           },
           {
@@ -114,12 +134,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lateral Movement"
+              "title": "Outgoing links"
             }
           },
           {
@@ -143,13 +162,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кибербезопасность/Lateral Movement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lateral Movement"
+              "title": "Outline"
             }
           },
           {
@@ -180,12 +198,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29ced2e01c6437e7",
+  "active": "c1298c5a4e07f504",
   "lastOpenFiles": [
+    "Кибербезопасность/PsExec.md",
+    "Кибербезопасность/Lateral Movement.md",
     "Кибербезопасность/README.md",
     "README.md",
-    "Кибербезопасность/README.md",
-    "Кибербезопасность/Lateral Movement.md",
     "2025-08-04.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
