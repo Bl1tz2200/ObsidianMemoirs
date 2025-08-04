@@ -23,26 +23,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "146d57b22bf24aa6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c1298c5a4e07f504",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://habr.com/ru/companies/rvision/articles/728838/",
-                "title": "Детектируем горизонтальное перемещение с PsExec / Хабр",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Детектируем горизонтальное перемещение с PsExec / Хабр"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#работы",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -116,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Кибербезопасность/PsExec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for PsExec"
             }
           },
           {
@@ -134,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Кибербезопасность/PsExec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from PsExec"
             }
           },
           {
@@ -162,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Кибербезопасность/PsExec.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PsExec"
             }
           },
           {
@@ -198,13 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1298c5a4e07f504",
+  "active": "29ced2e01c6437e7",
   "lastOpenFiles": [
+    "Кибербезопасность/README.md",
     "Кибербезопасность/PsExec.md",
     "Кибербезопасность/Lateral Movement.md",
-    "Кибербезопасность/README.md",
-    "README.md",
     "2025-08-04.md",
+    "README.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Кибербезопасность/Untitled.canvas",
