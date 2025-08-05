@@ -8,7 +8,6 @@ CSS не обычный язык программирования, как мин
 
 *site.html*
 ```
-
 <!DOCTYPE html>
 <html lang="en">
     <head>

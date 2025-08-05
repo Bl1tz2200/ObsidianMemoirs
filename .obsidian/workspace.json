@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Программирование/Разметка/HTML.md",
+                "file": "Программирование/Разметка/CCS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "CCS"
             }
           },
           {
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Программирование/Разметка/HTML.md",
+                "file": "Программирование/Разметка/CCS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HTML"
+              "title": "Backlinks for CCS"
             }
           },
           {
@@ -144,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Программирование/Разметка/HTML.md",
+                "file": "Программирование/Разметка/CCS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HTML"
+              "title": "Outgoing links from CCS"
             }
           },
           {
@@ -173,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Программирование/Разметка/HTML.md",
+                "file": "Программирование/Разметка/CCS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTML"
+              "title": "Outline of CCS"
             }
           },
           {
@@ -221,7 +221,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "27cdb13cce2bacc4",
+  "active": "a7d8bb6e1b72f92c",
   "lastOpenFiles": [
     "Программирование/Разметка/HTML.md",
     "Программирование/Разметка/CCS.md",
