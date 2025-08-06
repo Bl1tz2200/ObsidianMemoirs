@@ -31,20 +31,6 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "ded2e444a8b97409",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://cs.fyi/guide/writing-semantic-html",
-                "title": "Writing Semantic HTML - cs.fyi",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Writing Semantic HTML - cs.fyi"
-            }
           }
         ],
         "currentTab": 1
