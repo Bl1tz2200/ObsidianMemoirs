@@ -1198,6 +1198,208 @@ output "web_load_balancer_url" { # Ссылка на наш сервер
 }
 ```
 
+# Пример развертки реальной сети
+Примерно так должна выглядеть работа опытного Terraform специалиста:
+
+*outputs.tf*
+```
+output "vpc_id" {
+   value = aws_vpc.main.id
+}
+
+output "public_subnet_id" {
+   value = aws_subnet.public_subnet.id
+}
+
+output "private_subnet_id" {
+   value = aws_subnet.private_subnet.id
+}
+
+output "aws_eip_id" {
+   value = aws_eip.nat_eip.id
+}
+
+output "aws_nat_gateway_id" {
+   value = aws_nat_gateway.nat.id
+}
+
+output "aws_route_table_private_id" {
+   value = aws_route_table.private.id
+}
+
+output "aws_route_table_public_id" {
+   value = aws_route_table.public.id
+}
+
+output "public_internet_gateway_id" {
+   value = aws_route.public_internet_gateway.id
+}
+
+output "private_internet_gateway_id" {
+   value = aws_route.private_internet_gateway.id
+}
+
+output "route_table_association_public_id" {
+   value = aws_route_table_association.public.id
+}
+
+output "route_table_association_private_id" {
+   value = aws_route_table_association.private.id
+}
+
+output "instance_my_new_web_server_id" {
+    value = aws_instance.my_new_web_server.id
+}
+
+output "security_group_web_server_sec_group_id" {
+    value = aws_security_group.web_server_sec_group.id
+}
+```
+
+*terraform.tf*
+```
+terraform {
+    provider "aws" {
+        region = "${var.aws_region}"
+    }
+
+    backend "s3" {
+    bucket = "mybucket"
+    key    = "path/to/my/key"
+    region = "us-east-1"
+    }
+}
+
+locals {
+  availability_zones = ["${var.aws_region}a", "${var.aws_region}b"]
+}
+
+resource "aws_vpc" "main" {
+  cidr_block           = var.vpc_cidr
+  enable_dns_hostnames = true
+  enable_dns_support   = true
+}
+
+resource "aws_subnet" "public_subnet" {
+  vpc_id                  = aws_vpc.main.id
+  count                   = length(var.public_subnets_cidr)
+  cidr_block              = element(var.public_subnets_cidr, count.index)
+  availability_zone       = element(local.availability_zones, count.index)
+  map_public_ip_on_launch = true
+
+}
+
+resource "aws_subnet" "private_subnet" {
+  vpc_id                  = aws_vpc.main.id
+  count                   = length(var.private_subnets_cidr)
+  cidr_block              = element(var.private_subnets_cidr, count.index)
+  availability_zone       = element(local.availability_zones, count.index)
+  map_public_ip_on_launch = false
+
+}
+
+#Internet gateway
+resource "aws_internet_gateway" "ig" {
+  vpc_id = aws_vpc.main.id
+}
+
+# Elastic-IP (eip) for NAT
+resource "aws_eip" "nat_eip" {
+  vpc        = true
+  depends_on = [aws_internet_gateway.ig]
+}
+
+# NAT Gateway
+resource "aws_nat_gateway" "nat" {
+  allocation_id = aws_eip.nat_eip.id
+  subnet_id     = element(aws_subnet.public_subnet.*.id, 0)
+}
+
+# Routing tables to route traffic for Private Subnet
+resource "aws_route_table" "private" {
+  vpc_id = aws_vpc.main.id
+}
+
+# Routing tables to route traffic for Public Subnet
+resource "aws_route_table" "public" {
+  vpc_id = aws_vpc.main.id
+}
+
+resource "aws_route" "public_internet_gateway" {
+  route_table_id         = aws_route_table.public.id
+  destination_cidr_block = "0.0.0.0/0"
+  gateway_id             = aws_internet_gateway.ig.id
+}
+
+# Route for NAT Gateway
+resource "aws_route" "private_internet_gateway" {
+  route_table_id         = aws_route_table.private.id
+  destination_cidr_block = "0.0.0.0/0"
+  gateway_id             = aws_nat_gateway.nat.id
+}
+
+# Route table associations for both Public & Private Subnets
+resource "aws_route_table_association" "public" {
+  count          = length(var.public_subnets_cidr)
+  subnet_id      = element(aws_subnet.public_subnet.*.id, count.index)
+  route_table_id = aws_route_table.public.id
+}
+
+resource "aws_route_table_association" "private" {
+  count          = length(var.private_subnets_cidr)
+  subnet_id      = element(aws_subnet.private_subnet.*.id, count.index)
+  route_table_id = aws_route_table.private.id
+}
+
+resource "aws_instance" "my_new_web_server" {
+    ami = "ami-identificator"
+    instance_type = "t3.micro"
+    security_group_ids = [aws_security_group.web_server_sec_group.id]
+}
+
+resource "aws_security_group" "web_server_sec_group" {
+   name        = "Web_Server_sec_group"
+   vpc_id      = "${aws_vpc.main.id}"
+   subnet_id   = aws_subnet.private_subnet.id
+
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = var.private_subnets_cidr
+  }
+
+  egress {
+    from_port       = 0
+    to_port         = 0
+    protocol        = "-1"
+    cidr_blocks     = ["0.0.0.0/0"]
+  }
+}
+```
+
+*variables.tf*
+```
+variable "aws_region" {
+    default = "us-central-1"
+}
+
+variable "vpc_cidr" {
+    default = "10.0.0.0/16"
+}
+
+variable "public_subnets_cidr" {
+   default = ["10.0.1.0/24", "10.0.2.0/24"]
+}
+
+variable "private_subnets_cidr" {
+   default = ["10.0.3.0/24", "10.0.4.0/24"]
+}
+```
+
+В этой работе разворачивается две сети: private и public
+Публичная сеть доступна из интернета, приватная же доступна только через NAT, связанный с публичной сетью, сайт же доступен только из приватной сети, то есть находится в сети, попасть в которую можно только через NAT, усиливая защиту (да, в instance не указан user_data, потому что  её необходимо будет заполнить по заданию, так же там не заданы ami)
+
 # [Источник](https://www.youtube.com/playlist?list=PLg5SS_4L6LYujWDTYb-Zbofdl44Jxb2l8)
 В качестве источника представлен плейлист на ютубе
 Помимо этого источника также можно ознакомиться с [основами Terraform](https://habr.com/ru/companies/otus/articles/696694/) на хабре
