@@ -25,4 +25,4 @@ CI/CD (Continuous Integration/Continuous Delivery/Deployment) - непрерыв
 
 Для CI/CD существует много инструментов, вот некоторые из них:
 - [[Jenkins]]
-- Gitlab
+- [[GitLab]]
